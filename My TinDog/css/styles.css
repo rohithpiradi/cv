@@ -1,0 +1,193 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3 {
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+p {
+  color: #8f8f8f;
+  padding: 0 2rem;
+}
+
+.container-fluid {
+  padding: 0 15%;
+}
+
+.container-fluid2 {
+  padding: 2% 8%;
+}
+
+/* navigation bar */
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+  font-size: 1.5rem;
+  font-weight: lighter;
+}
+
+.download-btn {
+  margin-right: 0.3rem;
+}
+
+/* title */
+#title {
+  background-color: #ef8172;
+  color: white;
+  padding-bottom: 5rem;
+}
+
+.title-heading {
+  font-size: 3.5rem;
+  padding-bottom: 10%;
+}
+
+.title-img {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+}
+
+.title-imagepad {
+  padding: 0 0 4rem 10rem;
+}
+
+/* features */
+#features {
+  padding: 8rem 15rem 5rem 15rem;
+  background-color: white;
+  position: relative;
+  /* z-index: 1; positioning based stack placement by z index and position of section is drawn in table and uploaded in the drive */
+}
+
+.features-img {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.features-img:hover {
+  color: #ff4c68;
+}
+
+.features-box {
+  text-align: center;
+}
+
+.features-text {
+  font-size: 1.5rem;
+}
+
+/* testimonial */
+#testimonials {
+  background-color: #ef8172;
+  text-align: center;
+  color: white;
+}
+
+.testimonial-text {
+  font-size: 2.5rem;
+  color: white;
+}
+
+.testslides {
+  padding: 8rem 15rem 5rem 15rem;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 4%;
+}
+
+/* press */
+#press {
+  background-color: #ef8172;
+  text-align: center;
+}
+
+.press-img {
+  width: 15%;
+  margin: 10px 20px 50px
+}
+
+/*price */
+#pricing {
+  padding: 5rem 15rem 5rem 15rem;
+  text-align: center;
+}
+
+.card-title {
+  font-size: 2.5rem;
+  color: black;
+}
+
+.pricebox {
+  margin-top: 1.5rem;
+}
+
+.dog-name {
+  font-size: 1.5rem;
+}
+
+.pricing-heading {
+  font-size: 2.5rem;
+  color: black;
+}
+
+/* Call to Action */
+#cta {
+  background-color: #ef8172;
+  text-align: center;
+  font-size: 2.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+  color: white;
+  padding: 5% 0;
+}
+
+/* footer */
+#footer {
+  background-color: white;
+  text-align: center;
+}
+
+.foot {
+  padding: 5rem 0;
+  color: #8f8f8f;
+  font-weight: lighter;
+  margin: 0;
+}
+
+.foot-img {
+  margin: 0 1rem;
+}
+
+.footer-heading {
+  font-weight: bold;
+  font-size: 3rem;
+  margin: 3rem 15rem;
+}
+
+/*for mobile design */
+@media (max-width : 991px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-img {
+    transform: rotate(0);
+    position: static;
+    margin: 4rem 10rem 0 0;
+  }
+}
